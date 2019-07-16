@@ -1,6 +1,5 @@
 
 
-
 ## 安装
 ### elasticsearch 
 
@@ -142,7 +141,7 @@ tar xvfz kibana-*.tar.gz
 cd kibana*
 ```
 
-运行es：
+运行kibana：
 
 ```
  nohup bin/kibana -H 0.0.0.0 &
@@ -155,6 +154,15 @@ cd kibana*
 curl http://localhost:5601/
 
 ```
+
+导入kibana配置：
+
+打开Management->saved objects -> import  在弹框中选择： settings/fisco-bcos-elk-owl.ndjson 文件，执行导入
+
+
+验证导入：
+
+打开dashboards，搜索fisco，查看是否存在fisco-bcos-dashboard界面
 
 
 ### Beats: HeartBeat
