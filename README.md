@@ -60,5 +60,5 @@ Kibana： 提供数据可视化服务，支持自定义仪表盘、图形和各�
 
 ### 4. 安装方法
 
-详情请参考安装手册：
+详情请参考： [安装手册](https://github.com/dalaocu/FISCO-BCOS-ELK-OWL/blob/master/install.md)
 
