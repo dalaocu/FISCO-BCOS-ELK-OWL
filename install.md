@@ -162,7 +162,7 @@ curl http://localhost:5601/
 
 验证导入：
 
-打开dashboards，搜索fisco，查看是否存在fisco-bcos-dashboard界面
+打开dashboards，搜索fisco，查看是否存在fisco-bcos-dashboard界面。
 
 
 ### Beats: HeartBeat
@@ -299,6 +299,12 @@ module初始化：
 ```
 ./metricbeat -e
 ```
+
+
+### 个性化定制
+
+
+参考[Kibana配置手册](https://www.elastic.co/guide/en/kibana/current/index.html)，个性化打造更多所需的仪表盘。
 
 
 
