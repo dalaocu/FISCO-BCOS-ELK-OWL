@@ -28,6 +28,8 @@
 
 ### 3. 设计
 
+![ELK设计图](https://github.com/dalaocu/FISCO-BCOS-ELK-OWL/blob/master/photos/design.png)
+
 
 FileBeat: 用来收集FISCO-BCOS的节点日志；
 
