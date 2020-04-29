@@ -300,6 +300,10 @@ module初始化：
 ./metricbeat -e
 ```
 
+查看MetricBeat视图：
+
+打开Kibana，选择Dashboard功能，搜索：[Metricbeat System] Host overview ECS， 打开页面。
+
 
 ### 个性化定制
 
